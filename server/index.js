@@ -4,7 +4,7 @@ const express = require('express')
 const socketIO = require('socket.io')
 
 const app = express()
-const port = process.env.port || 5000
+const port = process.env.port
 
 const pathname = path.join(__dirname, '/../public')
 console.log(pathname);
